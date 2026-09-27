@@ -18,7 +18,7 @@ export default function Navbar() {
             ZA
           </div>
           <div className="leading-tight">
-            <p className="font-display font-bold text-lg brand-gradient">Zero Artifacts</p>
+            <p className="font-display font-bold text-lg brand-gradient">Kosh Drishti</p>
             <p className="text-[10px] text-dim tracking-wide -mt-0.5">MPLADS Risk Intelligence</p>
           </div>
         </Link>
