@@ -140,7 +140,7 @@ export default function Overview() {
                   value={summary.data?.flagged_anomalies}
                   format={(v) => formatNumber(v)}
                   color="text-risk-critical"
-                  source="Detected by Zero Artifacts AI — 5 ML models"
+                  source="Detected by Kosh Drishti — 5 ML models"
                 />
               </motion.div>
               <motion.div variants={staggerItem}>
@@ -149,7 +149,7 @@ export default function Overview() {
                   value={summary.data?.critical_constituencies}
                   format={(v) => formatNumber(v)}
                   color="text-risk-critical"
-                  source="Detected by Zero Artifacts AI — 5 ML models"
+                  source="Detected by Kosh Drishti — 5 ML models"
                 />
               </motion.div>
               <motion.div variants={staggerItem}>
@@ -158,7 +158,7 @@ export default function Overview() {
                   value={summary.data?.high_risk_vendors}
                   format={(v) => formatNumber(v)}
                   color="text-risk-high"
-                  source="Detected by Zero Artifacts AI — 5 ML models"
+                  source="Detected by Kosh Drishti — 5 ML models"
                 />
               </motion.div>
               <motion.div variants={staggerItem}>
@@ -167,7 +167,7 @@ export default function Overview() {
                   value={summary.data?.duplicate_works}
                   format={(v) => formatNumber(v)}
                   color="text-risk-high"
-                  source="Detected by Zero Artifacts AI — 5 ML models"
+                  source="Detected by Kosh Drishti — 5 ML models"
                 />
               </motion.div>
               <motion.div variants={staggerItem}>
@@ -176,7 +176,7 @@ export default function Overview() {
                   value={summary.data?.bulk_spending_mps}
                   format={(v) => formatNumber(v)}
                   color="text-risk-medium"
-                  source="Detected by Zero Artifacts AI — 5 ML models"
+                  source="Detected by Kosh Drishti — 5 ML models"
                 />
               </motion.div>
               <motion.div variants={staggerItem}>
@@ -185,7 +185,7 @@ export default function Overview() {
                   value={summary.data?.weather_alibi_applied}
                   format={(v) => formatNumber(v)}
                   color="text-risk-low"
-                  source="Detected by Zero Artifacts AI — 5 ML models"
+                  source="Detected by Kosh Drishti — 5 ML models"
                 />
               </motion.div>
             </motion.div>
