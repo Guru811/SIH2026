@@ -6,6 +6,7 @@ import pandas as pd
 app = FastAPI(title="Zero Artifacts — MPLADS API")
 
 @app.get("/health")
+@app.head("/health")
 def health():
     return {"status": "ok"}
 
