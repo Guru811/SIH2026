@@ -4,6 +4,11 @@ import sqlite3
 import pandas as pd
 
 app = FastAPI(title="Zero Artifacts — MPLADS API")
+
+@app.get("/health")
+def health():
+    return {"status": "ok"}
+
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 
